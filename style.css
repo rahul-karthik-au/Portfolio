@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    grid-area: "header";
+}
+.nav-list{
+    grid-area: "nav-list";
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.nav-bar{
+    display: inline;
+    grid-template-areas: "header header nav-list";
+}
