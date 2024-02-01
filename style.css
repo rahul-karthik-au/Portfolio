@@ -1,16 +1,113 @@
 *{
+    padding: 0;
+    margin:0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
-.header{
-    grid-area: "header";
+:root{
+    --bg-color:#ffffff;
+    --text-color:#000;
+    --secound-color:#a09dab;
+    --main-color:#f75023;
+    --big-font:5rem;
+    --h2-font:3rem;
+    --p-font:1.1rem;
+}
+body{
+    background-color: #ffffff;
+    color: #000;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right:0;
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 10px;
+    transition: 0.3s;
 }
 .nav-list{
-    grid-area: "nav-list";
     display: flex;
-    list-style: none;
-    justify-content: space-around;
 }
-.nav-bar{
-    display: inline;
-    grid-template-areas: "header header nav-list";
+.nav-list li{
+    position: relative;
 }
+.nav-list a{
+    color:#000;
+    font-weight: 1.1rem;
+    padding: 10px 40px;
+}
+.nav-list a:hover{
+    background-color: aquamarine;
+    color:#ffffff;
+    border-radius: 35px;
+}
+.top-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: transparent;
+    border:2px solid #f75023;
+    border-radius: 20px;
+    color:#000;
+}
+.top-btn:hover{
+    background-color: aquamarine;
+    color:#ffffff;
+    border: 2px solid #000;
+}
+section{
+    padding: 50px 15%;
+}
+.home{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+    grid-gap: 4rem;
+}
+img{
+    max-width: 200%;
+    width: 540px;
+    height: auto;
+}
+.home-txt h1{
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+    line-height:1;
+    font-weight: 100;
+}
+.home-txt h3{
+    font-size: 15px;
+
+}
+.home-txt h5{
+    font-size: 20px;
+}
+.home-txt p{
+    font-size: 15px;
+}
+.social a{
+    width: 35px ;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a:hover{
+    background-color: aquamarine;
+}
+
+
+
+
+
