@@ -197,12 +197,75 @@ img{
     font-size: 1.2rem;
     color:#6b9080;
 }
+
 .certi-heading{
     color:#6b9080;
     font-size: 1.2rem;
     padding-bottom: 1rem;
 }
-
+.certi-heading div{
+    display: inline;
+}
+.certi-heading p{
+    display: inline;
+}
+.certi-heading a{
+    text-decoration: none;
+    color: #344e41;
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+    max-width: 90%;
+}
+.projects h1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #344e41;
+    font-size: 2rem;
+}
+.project{
+    padding: 1rem;
+    border-bottom: 2px solid #344e41;
+}
+.proj-title{
+    color:#6b9080;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+.proj-desc{
+    color:#344e41;
+    font-size: 1.2rem;
+    display: inline;
+}
+.proj-src-btn{
+    display: inline;
+    margin-left: 90%;
+    max-width: 125px;
+    border:2px solid #344e41;
+    border-radius: 16px;
+    background-color:#cce3de;
+    font-size: 1rem;
+    padding: 3px;
+    text-align: center;
+}
+.proj-src-btn a{
+    color:#344e41;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    background-color: #6b9080;
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    width:100%;
+    color:#344e41;
+}
+.footer a{
+    color:#a4c3b2;
+}
 
 
 
