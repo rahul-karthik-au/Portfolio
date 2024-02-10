@@ -5,23 +5,7 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
-/*
-    6b9080
-    a4c3b2
-    cce3de
-    eaf4f4
-    f6fff8
 
- */
-:root{
-    --bg-color:#ffffff;
-    --text-color:#000;
-    --secound-color:#a09dab;
-    --main-color:#f75023;
-    --big-font:5rem;
-    --h2-font:3rem;
-    --p-font:1.1rem;
-}
 body{
     background-color: #f6fff8;
     color: #000;
