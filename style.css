@@ -11,7 +11,7 @@ body{
     color: #000;
 }
 section{
-    min-height: 100vh;
+    min-height: auto;
     padding: 4rem 9% 2rem;
 }
 header{
@@ -201,6 +201,7 @@ img{
     display:flex;
     flex-direction: column;
     max-width: 90%;
+    padding-bottom: 100px;
 }
 .projects h1{
     padding-top: 2rem;
@@ -214,7 +215,7 @@ img{
 }
 .proj-title{
     color:#6b9080;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding-bottom: 1rem;
     font-weight: 600;
 }
@@ -224,8 +225,7 @@ img{
     display: inline;
 }
 .proj-src-btn{
-    display: inline;
-    margin-left: 90%;
+    margin-top: 10px;
     max-width: 125px;
     border:2px solid #344e41;
     border-radius: 16px;
@@ -242,7 +242,7 @@ img{
     bottom:0;
     background-color: #6b9080;
     margin: auto;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     text-align: center;
     width:100%;
     color:#344e41;
@@ -250,7 +250,78 @@ img{
 .footer a{
     color:#a4c3b2;
 }
+@media only screen and (max-width: 800px) {
+    body {
+        font-size: 12px;
+    }
+    section {
+        padding: 2rem 5% 1rem; 
+        min-height: auto;
+    }
+    
+    .nav-list a {
+        padding: 10px 20px; 
+    }
+    img {
+        max-width: 100%;
+        height: auto; 
+        border-radius:200px;
+        margin: 2rem 0; 
+    }
+    header {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+    .home-txt{
+        margin-top: 150px;
+    }
+    .home {
+        grid-template-areas: 
+            "home-txt"
+            "home-txt"
+            "image"; 
+    }
+    .work h1{
+        font-size: 1.6rem;
+    }
+    .company-header{
+        font-size: 1.4rem;
+    }
+    .company-header2{
+        font-size: 1rem;
+    }
+    .company-description{
+        font-size: 0.8rem;
+    }
+    .skills{
+        font-size: 0.8rem;
+    }
+    .education h1{
+        font-size: 1.6rem;
+    }
+    .inst-info{
+        font-size: 1.2rem;
+    }
+    .inst-info2{
+        font-size: 0.8rem;
+    }
+    .certi-heading{
+        font-size: 0.8rem;
+    }
+    .projects h1{
+        font-size: 1.6rem;
+    }
+    .proj-title{
+        font-size: 1.2rem;
+    }
+    .proj-desc{
+        font-size: 1rem;
+    }
 
+
+
+
+}
 
 
 
