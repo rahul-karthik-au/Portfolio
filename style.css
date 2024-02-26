@@ -247,9 +247,14 @@ img{
     width:100%;
     color:#344e41;
 }
+
 .footer a{
     color:#a4c3b2;
 }
+.footer-social-mobile{
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
     body {
         font-size: 12px;
@@ -321,7 +326,12 @@ img{
     .proj-desc{
         font-size: 1rem;
     }
-
+    .footer-social{
+        display: none;
+    }
+    .footer-social-mobile{
+        display: inline;
+    }
 
 
 
