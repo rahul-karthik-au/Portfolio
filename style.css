@@ -268,10 +268,13 @@ img{
         border-radius:200px;
         margin: 2rem 0; 
     }
-    header {
-        flex-direction: column; 
-        align-items: flex-start; 
+    header h1{
+        text-align: center;
     }
+    header {
+        display:inline;
+    }
+   
     .home-txt{
         margin-top: 150px;
     }
