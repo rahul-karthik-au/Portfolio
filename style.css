@@ -11,7 +11,7 @@ body{
     color: #000;
 }
 section{
-    min-height: auto;
+    min-height: 100vh;
     padding: 4rem 9% 2rem;
 }
 header{
@@ -236,6 +236,62 @@ img{
 }
 .proj-src-btn a{
     color:#344e41;
+}
+.contact {
+    background-color: #f6fff8;
+    padding: 4rem 9%;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    color: #344e41;
+    margin-bottom: 2rem;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 1.2rem;
+    color: #344e41;
+    margin-bottom: 0.5rem;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #a4c3b2;
+    border-radius: 5px;
+}
+
+.input-group textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #6b9080;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #344e41;
 }
 .footer{
     position:fixed;
