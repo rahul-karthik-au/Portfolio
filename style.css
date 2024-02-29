@@ -388,11 +388,13 @@ button[type="submit"]:hover {
     .footer-social-mobile{
         display: inline;
     }
-
-
+}
+@media only screen and (max-width: 600px){
+    .nav-list a {
+        padding: 5px 10px; 
+    }
 
 }
-
 
 
 
