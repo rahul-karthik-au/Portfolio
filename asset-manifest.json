@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.eac21ed2.css",
+    "main.js": "/Portfolio/static/js/main.3bc232f7.js",
+    "static/js/453.b05d8aa5.chunk.js": "/Portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/project1.png": "/Portfolio/static/media/project1.bb7bce37db8cc986c595.png",
+    "static/media/project3.png": "/Portfolio/static/media/project3.89029b0c5f970e6be057.png",
+    "static/media/bg-dark.jpg": "/Portfolio/static/media/bg-dark.0584039bcb6990ec206b.jpg",
+    "static/media/rahulkarthik.jpg": "/Portfolio/static/media/rahulkarthik.8d21e6e7a9ab090805ab.jpg",
+    "static/media/Number-Guessing-Game-01.png": "/Portfolio/static/media/Number-Guessing-Game-01.2273d80146a07366edc0.png",
+    "static/media/bg-light.jpg": "/Portfolio/static/media/bg-light.eeb93c305f3afe6329cc.jpg",
+    "static/media/project4.jpg": "/Portfolio/static/media/project4.2c7bb98f68e7a6ffb966.jpg",
+    "static/media/project2.jpg": "/Portfolio/static/media/project2.b58d82c2dcc483381bc3.jpg",
+    "static/media/Screenshot 2025-03-17 at 2.40.10 PM (2) copy.png": "/Portfolio/static/media/Screenshot 2025-03-17 at 2.40.10 PM (2) copy.dc23a3426b2c09abc4b4.png",
+    "static/media/weatherApp.jpg": "/Portfolio/static/media/weatherApp.29f68124261941dbdf47.jpg",
+    "static/media/guess-word-800.webp": "/Portfolio/static/media/guess-word-800.d02e433ed7e6af3780bd.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.eac21ed2.css.map": "/Portfolio/static/css/main.eac21ed2.css.map",
+    "main.3bc232f7.js.map": "/Portfolio/static/js/main.3bc232f7.js.map",
+    "453.b05d8aa5.chunk.js.map": "/Portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eac21ed2.css",
+    "static/js/main.3bc232f7.js"
+  ]
+}
