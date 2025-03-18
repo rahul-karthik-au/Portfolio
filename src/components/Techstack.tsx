@@ -1,3 +1,4 @@
+import React from "react";
 import "../assets/styles/Techstack.scss";
 import javaimg from "../assets/images/icons8-java-48.png";
 import springimg from "../assets/images/icons8-spring-boot-48.png";
